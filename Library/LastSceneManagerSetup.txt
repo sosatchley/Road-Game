@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Roads free pack/1/Sample Scene.unity
+  isLoaded: 1
+  isActive: 1
