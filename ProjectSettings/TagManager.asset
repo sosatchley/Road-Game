@@ -8,6 +8,8 @@ TagManager:
   - Trees
   - Grass
   - Road
+  - Rail
+  - Enemy
   layers:
   - Default
   - TransparentFX
