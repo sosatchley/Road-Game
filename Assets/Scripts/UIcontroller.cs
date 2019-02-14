@@ -24,7 +24,6 @@ public class UIcontroller : MonoBehaviour
 
     public void Play()
     {
-        Debug.Log("click");
         Application.LoadLevel("Firetrucks");
     }
 
@@ -33,14 +32,18 @@ public class UIcontroller : MonoBehaviour
         Debug.Log(Time.timeScale);
         if (Time.timeScale == 1)
         {
-            Debug.Log("Stopping");
             Time.timeScale = 0;
             Debug.Log(Time.timeScale);
         }
         else if (Time.timeScale == 0)
         {
-            Debug.Log("Starting");
             Time.timeScale = 1;
         }
+    }
+
+    public void exit()
+    {
+        Debug.Log("Quit");
+        Application.Quit();
     }
 }
